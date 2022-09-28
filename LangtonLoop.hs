@@ -1,7 +1,6 @@
 import System.IO
 import Data.Map as M
 import Data.Array as A
-import Graphics.Gloss
 
 -- Neumann Neighborhood
 data Neighbourhood a = Neighbourhood {
