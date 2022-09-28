@@ -126,7 +126,7 @@ langtonLoop board rules currStep maxStep = do
 
 
 langtonTable :: String
-langtonTable = "./files/langton-table.txt"
+langtonTable = "./langton-table.txt"
 
 main = do
   handle <- openFile langtonTable ReadMode
